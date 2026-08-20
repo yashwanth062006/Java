@@ -1,0 +1,23 @@
+package project_1;
+
+import java.util.*;
+
+public class pattern_recoginition {
+	public static void main(String[] args) {
+		int[] numbers= {10 , 20 ,30,20,40};
+		
+		HashSet<Integer>set=new HashSet<>();
+		
+		for (int number:numbers) {
+			
+			if(set.contains(number)) {
+				 System.out.println("Duplicate "+number);
+			}else {
+				
+				set.add(number);
+			}
+		}
+		
+
+	}
+}
