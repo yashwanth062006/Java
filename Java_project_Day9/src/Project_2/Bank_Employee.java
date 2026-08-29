@@ -1,9 +1,9 @@
-package Assignment;
+package Project_2;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class assignment_1 {
+public class Bank_Employee {
 
     // Employee class
     static class Employee {
